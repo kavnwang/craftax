@@ -1,0 +1,8 @@
+# Install the GPU JAX wheel first or let this line do it on CUDA 12 systems.
+# For CUDA 12 H100 machines:
+#   pip install -U "jax[cuda12]"
+jax[cuda12]>=0.4.34
+flax>=0.8.5
+optax>=0.2.3
+craftax>=1.5.0
+numpy>=1.26
